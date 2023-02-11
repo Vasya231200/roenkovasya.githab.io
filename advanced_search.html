@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Головна сторінка пошуку</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <a href="index.html" class="logo-advanced"
+        ><img src="Google.jpg" alt="Логотип Google" width="74"
+      /></a>
+      <h1>Розширений пошук</h1>
+      <span class="main">
+        <h2>Знайти сторінки із...</h2>
+        <span class="title-exposition">Як це працює у звичайному пошуку</span>
+        <form action="https://www.google.com/search">
+          <ul>
+            <li class="search-terms">
+              <h3>усіма цими словами:</h3>
+              <input id="input-advanced-search" type="text" name="as_q" />
+              <span class="exposition"
+                >Введіть ключові слова: Іван Федорович Крузенштерн</span
+              >
+            </li>
+            <li class="search-terms">
+              <h3>саме цим словом або фразою:</h3>
+              <input id="input-advanced-search" type="text" name="as_epq" />
+              <span class="exposition"
+                >Укладіть словосполучення в лапки: "Книга Іван
+                Крузенштерн"</span
+              >
+            </li>
+            <li class="search-terms">
+              <h3>будь-яким із цих слів:</h3>
+              <input id="input-advanced-search" type="text" name="as_oq" />
+              <span class="exposition"
+                >Вставте оператор OR між словами: людина OR пароплав</span
+              >
+            </li>
+            <li class="search-terms">
+              <h3>жодне з цих слів:</h3>
+              <input id="input-advanced-search" type="text" name="as_eq" />
+              <span class="exposition"
+                >Поставте знак мінуса перед словами: - пароплав, - "книга про
+                пароплав"</span
+              >
+            </li>
+          </ul>
+          <input
+            id="button-advanced-search"
+            type="submit"
+            value="Розширений пошук"
+          />
+        </form>
+      </span>
+    </main>
+  </body>
+</html>
